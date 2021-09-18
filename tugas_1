@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+.gambar {
+    height: 150px;
+    width: 100;
+}
+
+img {
+    height: 150px;
+    width: 100;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.biodata {
+    font-style: oblique;
+
+}
+
+.container {
+    font-family: 'arial', sans-serif;
+    display: inline-block;
+    padding: 7px 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: 5px 5px;
+}
+
+p {
+    padding: 7px 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: 5px 5px;
+}
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomor B</b></title>
+</head>
+
+<body>
+    <?php
+    $nama = "Arif Muntaha";
+    $nim = 192520030;
+    $alamat = "Kluwung Kemiri Purworejo";
+    $email = "arifaja178@gmail.com";
+    $bidang = "Pemrograman";
+    ?>
+
+    <div class="container">
+        <div class="gambar">
+            <img src="img\praktikum.jpg" alt="">
+        </div>
+        <div class="card">
+            <p><b>Biodata Diri</b></p>
+            <p>Nama : <?= $nama ?></p>
+            <p>Nim : <?= $nim ?></p>
+            <p>Alamat : <?= $alamat ?></p>
+            <p>Email : <?= $email ?></p>
+            <p>Bidang : <?= $bidang ?></p>
+        </div>
+    </div>
+</body>
+
+</html>
