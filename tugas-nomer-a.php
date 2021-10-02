@@ -79,17 +79,6 @@ $data_warkop = array(
     2 => ["makanan" => "Nasi & Ikan Lele Bakar", "minuman" => "Es Jeruk"],
     3 => ["makanan" => "Nasi & Ayam Goreng", "minuman" => "Jeruk Panas"],
     4 => ["makanan" => "Nasi & Bebek Goreng", "minuman" => "Teh Panas"]
-    // "makanan" => "Nasi & Ikan Nila Bakar", "Nasi & Ikan Lele Bakar", "Nasi & Ayam Goreng", "Nasi & Bebek Goreng",
-    // "minuman" => "Es Teh", "Es Jeruk", "Jeruk Panas", "Teh Panas"
-    // [1=>["makanan"=>"Nasi & Ikan Nila Baka"],
-    // 2=>["makanan"=>"Nasi & Ikan Lele Bakar"],
-    // 3=>["makanan"=> "Nasi & Ayam Goreng"],
-    // 4=>["makanan"=>"Nasi & Bebek Goreng"]],
-    // [1=>["minuman"=>"Es Teh"],
-    // 2=>["minuman"=>"Es Jeruk"],
-    // 3=>["minuman"=>"Jeruk Panas"],
-    // 4=>["minuman"=>"Teh Panas"]]
-
 ); ?>
 
 
